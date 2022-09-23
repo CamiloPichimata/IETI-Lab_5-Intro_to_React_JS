@@ -39,20 +39,28 @@ Seguido a esto, para facilitar la compilación de archivos de tipo `.scss` a arc
 
 ![](img/extension-live_sass_compiler.png)
 
+Realizado esto ya podemos crear archivos de tipo `.scss` y utilizar la extensión para compilarlos y obtener nuestros archivos de tipo `.css`
 
-<!-- ### Base de datos para pruebas
 
-Con el fin de verificar el correcto funcionamiento del login se crea una base de datos simulada o API de prueba (Fake REST Api) empleando el módulo de javascript **JSON Server**
+### Instalación de Ant
 
-Para poder usar el modulo mencionado debemos realizar su instalación, para esto se ejecuta el siguiente comando desde la consola:
+Con el fín de mejorar el diseño de la página se hará uso de la librería UI `Ant`:
+
+![](img/Ant_Library.jpg)
+
+Para instalarla en nuestro proyecto ejecutamos el siguiente comando desde la consola:
 
 ```
-npm install json-server
+npm install antd
+```
+ 
+E importamos en el archivo algunos componentes de la librería en el archivo `index.js` de la siguiente manera:
+
+```
+import {Form, Input, Button, Col, Row} from 'antd';
 ```
 
-Seguido a esto creamos un archivo `usersdb.json` -->
+A partir de ahí se realizan las implementaciones necesarias y el resultado es el siguiente:
 
-### Desarrollo
-
-Para continuar se eliminan los archivos creados por defecto en las carpetas `./src/` y `./public/` con el fin de iniciar un proyecto desde cero y se realizan las implemtnaciones necesarias
+![](img/login.png)
 

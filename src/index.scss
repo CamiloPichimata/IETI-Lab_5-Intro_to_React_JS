@@ -1,9 +1,36 @@
-loginContainer {
-    background-color: aquamarine;
-    border: 2px solid blue;
-    align-items: center;
+$font-stack: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$background-image: url(http://wallpapercave.com/wp/UoQbFHi.jpg);
+
+h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    text-align: center;
 }
 
-label {
-    text-decoration: blueviolet;
+.container {
+    background: $background-image no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.login-container {
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background: $background-image no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

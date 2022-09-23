@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Login from './login.js';
 import './index.css';
 
-class Login extends React.Component {
+class Index extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -13,41 +14,17 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div className="loginContainer">
-                <div className='form-group'>
-                    <h3>Login</h3>
-                    <form onSubmit={this.handleSubmit}>
-                        <label htmlFor='userName'>
-                            Nombre de usuario:
-                        </label>
-                        <input
-                            id='userName'
-                            type="text"
-                            //onChange={this.handleChange}
-                            value={this.state.text}
-                        />
-                        <br />
-                        <label htmlFor='password'>
-                            Contraseña:
-                        </label>
-                        <input
-                            id='password'
-                            type="password"
-                            //onChange={this.handleChange}
-                            value={this.state.text}
-                        />
-                        <br />
-                        <button>
-                            Do Login
-                        </button>
-                    </form>
+            <div className='container'>
+                <div className="login-container">
+                    <h2>Login</h2>
+                    <Login />
                 </div>
             </div>
         );
     }
 
     handleSubmit(e) {
-        alert("Se envió el formulario")
+        alert("Se envió el formulario");
     }
 }
 
@@ -55,4 +32,4 @@ class Login extends React.Component {
 // ==================================================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Login />);
+root.render(<Index />);

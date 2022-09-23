@@ -1,10 +1,27 @@
-loginContainer {
-  background-color: aquamarine;
-  border: 2px solid blue;
-  align-items: center;
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  text-align: center;
 }
 
-label {
-  -webkit-text-decoration: blueviolet;
-          text-decoration: blueviolet;
+.container {
+  background: url(http://wallpapercave.com/wp/UoQbFHi.jpg) no-repeat center center fixed;
+  background-size: cover;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.login-container {
+  width: 500px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background: url(http://wallpapercave.com/wp/UoQbFHi.jpg) no-repeat center center fixed;
+  background-size: cover;
 }/*# sourceMappingURL=index.css.map */
