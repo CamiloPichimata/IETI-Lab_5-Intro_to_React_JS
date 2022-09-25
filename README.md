@@ -64,3 +64,15 @@ A partir de ahí se realizan las implementaciones necesarias y el resultado es e
 
 ![](img/login.png)
 
+
+## CSS Challenge
+
+Para la realización de este Challenge se utilizó la siguiente portada de una de las publicaciones de VIAJES de National Geographic (N° 251):
+
+![](CSS%20Challenge/img/portada-251_8b5ff457_584x771.jpg)
+
+El resultado obtenido es el siguiente:
+
+![](CSS%20Challenge/img/Resultado_Final.png)
+
+Los archivos relacionados se encuentran en la carpeta [CSS Challenge](CSS%20Challenge)

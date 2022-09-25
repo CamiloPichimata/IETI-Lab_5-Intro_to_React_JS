@@ -1,0 +1,56 @@
+.container {
+    background: url(img/la-riqueza-de-las-islas-lofoten_851ae266.jpg) no-repeat;
+    color: white;
+    width: 830px;
+    height: 1190px;
+    padding: 50px;
+    padding-top: 0px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 200px;
+    font-weight: 700;
+    text-align: center;
+    height: 630;
+}
+
+.aditionalInfo {
+    text-align: right;
+    margin: 0px;
+}
+
+.textYellow {
+    color: yellow;
+}
+
+#logo {
+    height: 120px;
+    width: auto;
+}
+
+.rightText {
+    text-align: right;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.leftText {
+    font-size: 20px;
+}
+
+.footerTitle {
+    font-size: 145px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: 500;
+}
+
+.footerTitle2 {
+    font-size: 32px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
